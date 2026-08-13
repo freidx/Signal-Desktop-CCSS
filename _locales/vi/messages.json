@@ -756,10 +756,10 @@
     "messageformat": "Rất tiếc, tập tin video đã chọn vượt quá giới hạn dung lượng của tin nhắn. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Không thể gửi tập tin này vì dung lượng quá lớn. Bạn có thể gửi tập tin có dung lượng lên đến {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Không thể gửi video này vì dung lượng quá lớn. Bạn có thể gửi video có dung lượng lên đến {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Không thể tải tập tin đính kèm đã chọn."
@@ -3900,16 +3900,16 @@
     "messageformat": "Chế độ hiển thị đã cập nhật"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Đổi bố cục"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Lưới"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Thanh bên"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Loa"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Chia sẻ màn hình của bạn"

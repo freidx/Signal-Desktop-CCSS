@@ -756,10 +756,10 @@
     "messageformat": "На жаль, розмір обраного відео перевищує обмеження. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Цей файл неможливо надіслати, він завеликий. Максимальний дозволений розмір: {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Це відео неможливо надіслати, воно завелике. Максимальний дозволений розмір: {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Не вдається вивантажити обране вкладення."
@@ -3900,16 +3900,16 @@
     "messageformat": "Вигляд змінено"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Змінити вигляд"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Сітка"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Бічна панель"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Динамік"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Демонстрація екрана"

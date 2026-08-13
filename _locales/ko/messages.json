@@ -756,10 +756,10 @@
     "messageformat": "선택된 동영상 파일은 메시지의 최대 허용 용량을 초과했습니다. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "파일 용량이 너무 커서 전송할 수 없습니다. 최대 {limit,number}{units}까지 파일 전송이 가능합니다."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "동영상 파일이 너무 커서 전송할 수 없습니다. 최대 {limit,number}{units}까지 동영상 파일 전송이 가능합니다."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "선택된 첨부 파일을 불러올 수 없습니다."
@@ -2562,7 +2562,7 @@
     "messageformat": "그룹을 업데이트하지 못했습니다. 연결 상태를 확인하고 다시 시도하세요."
   },
   "icu:unlinkedWarning": {
-    "messageformat": "클릭하여 Signal Desktop을 모바일 기기와 다시 연동하고 메시지를 계속 이용해 보세요."
+    "messageformat": "클릭하여 Signal Desktop을 모바일 기기와 다시 연동하고 메시지 기능을 계속 이용해 보세요."
   },
   "icu:unlinked": {
     "messageformat": "연동 해제됨"
@@ -3900,16 +3900,16 @@
     "messageformat": "보기 업데이트 완료"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "레이아웃 변경하기"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "그리드"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "사이드바"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "스피커"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "화면 공유"
@@ -5479,16 +5479,16 @@
     "messageformat": "대화창 색상"
   },
   "icu:ChatColorPicker__reset": {
-    "messageformat": "대화창 색상 재설정"
+    "messageformat": "대화창 색 초기화"
   },
   "icu:ChatColorPicker__resetDefault": {
-    "messageformat": "대화창 색상 재설정"
+    "messageformat": "대화창 색 초기화"
   },
   "icu:ChatColorPicker__resetAll": {
-    "messageformat": "모든 대화창 색상 재설정"
+    "messageformat": "모든 대화창 색 초기화"
   },
   "icu:ChatColorPicker__confirm-reset-default": {
-    "messageformat": "기본 색상 재설정"
+    "messageformat": "기본 색상 초기화"
   },
   "icu:ChatColorPicker__confirm-reset": {
     "messageformat": "초기화"

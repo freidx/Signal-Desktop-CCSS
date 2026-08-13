@@ -756,10 +756,10 @@
     "messageformat": "عذرًا، يتجاوز ملف الفيديو المُحدَّد الحد الأقصى لِحجم الرسالة. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "تعذَّر إرسال هذا الملف لأنه حجمه كبير. يمكنك إرسال الملفات التي يصل حجمها إلى {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "تعذَّر إرسال هذا الفيديو لأن حجمه كبير. يمكنك إرسال الفيديوهات التي يصل حجمها إلى {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "فشل تنزيل الملفات المُرفَقة المُحدَّدة."
@@ -3900,16 +3900,16 @@
     "messageformat": "تمَّ تحديث طريقة العرض"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "تغيير طريقة العرض"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "شبكة"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "شريط جانبي"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "مُكبِّر الصوت"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "مشاركة شاشتك"

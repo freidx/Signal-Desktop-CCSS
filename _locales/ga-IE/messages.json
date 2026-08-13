@@ -756,10 +756,10 @@
     "messageformat": "Ár leithscéal, sáraíonn an físchomhad roghnaithe srianta le méid na teachtaireachta. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Ní féidir an comhad sin a sheoladh toisc go bhfuil sé rómhór. Is féidir leat comhaid suas le {limit,number}{units} a sheoladh."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Ní féidir an físchomhad sin a sheoladh toisc go bhfuil sé rómhór. Is féidir leat físchomhaid suas le {limit,number}{units} a sheoladh."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Ní féidir an ceangaltán roghnaithe a lódáil."
@@ -3900,16 +3900,16 @@
     "messageformat": "Amharc nuashonruithe"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Athraigh leagan amach"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Greille"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Taobh-bharra"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Callaire"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Comhroinn do scáileán"

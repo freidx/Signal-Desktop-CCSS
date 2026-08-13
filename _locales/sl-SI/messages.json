@@ -756,10 +756,10 @@
     "messageformat": "Izbran videoposnetek presega največjo dovoljeno velikost. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Datoteke ni mogoče poslati, ker je prevelika. Pošiljate lahko datoteke velikosti do {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Videoposnetka ni mogoče poslati, ker je prevelik. Pošiljate lahko videoposnetke velikosti do {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Izbrane priponke ni bilo mogoče zagnati."
@@ -3900,16 +3900,16 @@
     "messageformat": "Pogled posodobljen"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Spremeni postavitev"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Mreža"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Stranska vrstica"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Zvočnik"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Delite svoj zaslon"

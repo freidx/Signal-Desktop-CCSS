@@ -756,10 +756,10 @@
     "messageformat": "Jammer, die geselekteerde videolêer oorskry die boodskapgroottebeperkings. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Kan nie hierdie lêer stuur nie, want dis te groot. Jy kan lêers van tot {limit,number}{units} stuur."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Kan nie hierdie videolêer stuur nie, want dis te groot. Jy kan videolêers van tot {limit,number}{units} stuur."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Kan nie die geselekteerde aanhegsel laai nie."
@@ -3900,16 +3900,16 @@
     "messageformat": "Uitleg opgedateer"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Verander uitleg"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Roosteruitleg"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Kantbalk"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Luidspreker"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Deel jou skerm"

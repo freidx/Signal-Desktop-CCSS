@@ -756,10 +756,10 @@
     "messageformat": "Maaf, file video yang dipilih melebihi batas ukuran pesan. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Tidak bisa mengirim file ini karena ukurannya terlalu besar. Anda bisa mengirim file hingga {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Tidak bisa mengirim file video ini karena ukurannya terlalu besar. Anda bisa mengirim file video hingga {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Tidak dapat memuat lampiran yang dipilih."
@@ -3900,16 +3900,16 @@
     "messageformat": "Tampilan diperbarui"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Ubah tata letak"
   },
   "icu:calling__layout--paginated": {
     "messageformat": "Grid"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Bilah samping"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Pembicara"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Bagikan layar Anda"

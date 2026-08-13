@@ -756,10 +756,10 @@
     "messageformat": "ขออภัย ไฟล์วิดีโอที่คุณเลือกมีขนาดใหญ่เกินกว่าที่กำหนด {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "ไม่สามารถส่งได้เนื่องจากไฟล์นี้มีขนาดใหญ่เกินไป รองรับการส่งไฟล์ที่ขนาดไม่เกิน {limit,number}{units}"
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "ไม่สามารถส่งได้เนื่องจากไฟล์วิดีโอนี้มีขนาดใหญ่เกินไป รองรับการส่งไฟล์วิดีโอที่ขนาดไม่เกิน {limit,number}{units}"
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "ไม่สามารถดึงแฟ้มแนบที่เลือกได้"
@@ -3900,16 +3900,16 @@
     "messageformat": "เปลี่ยนมุมมองแล้ว"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "เปลี่ยนเลย์เอาต์"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "ตาราง"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "แถบเลื่อน"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "ลำโพง"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "แบ่งปันหน้าจอของคุณ"

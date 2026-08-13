@@ -756,10 +756,10 @@
     "messageformat": "מצטערים, הסרטון שנבחר חורג ממגבלת גודל ההודעה המקסימלי. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "לא ניתן לשלוח את הקובץ הזה כי הוא גדול מדי. אפשר לשלוח קבצים בגודל של עד {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "לא ניתן לשלוח את קובץ הווידאו הזה כי הוא גדול מדי. אפשר לשלוח קובצי וידאו בגודל של עד {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "לא היה ניתן לטעון את הצרופה הנבחרת."
@@ -3900,16 +3900,16 @@
     "messageformat": "תצוגה עודכנה"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "שינוי תצוגה"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "גריד"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "סרגל צד"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "רמקול"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "שתף את המסך שלך"

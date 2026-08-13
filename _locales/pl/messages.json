@@ -756,10 +756,10 @@
     "messageformat": "Wybrany plik wideo jest za duży, aby załączyć go do wiadomości. Limit rozmiaru to {limit,number} {units}."
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Nie można wysłać pliku – jest za duży. Maksymalny rozmiar pliku: {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Nie można wysłać wideo – jest za duże. Maksymalny rozmiar pliku wideo: {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Nie można załadować wybranego załącznika."
@@ -3900,16 +3900,16 @@
     "messageformat": "Widok zmieniony"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Zmień widok"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Siatka"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Pasek boczny"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Głośnik"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Udostępnij swój ekran"
@@ -7724,7 +7724,7 @@
     "messageformat": "Relacja"
   },
   "icu:StoryListItem__unhide": {
-    "messageformat": "Pokaż relacje"
+    "messageformat": "Pokazuj relacje"
   },
   "icu:StoryListItem__hide": {
     "messageformat": "Ukryj relacje"

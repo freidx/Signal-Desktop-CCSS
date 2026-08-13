@@ -756,10 +756,10 @@
     "messageformat": "Beklager, videofilen overskrider begrænsninger for beskedstørrelse. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Filen er for stor til at blive sendt. Du kan sende filer på op til {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Videofilen er for stor til at blive sendt. Du kan sende videofiler på op til {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Ude af stand til at indlæse den valgte vedhæftning."
@@ -3900,16 +3900,16 @@
     "messageformat": "Se opdateret"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Skift udformninger"
   },
   "icu:calling__layout--paginated": {
     "messageformat": "Grid"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Sidebjælke"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Højttaler"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Del din skærm"

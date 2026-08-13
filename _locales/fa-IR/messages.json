@@ -756,10 +756,10 @@
     "messageformat": "متاسفانه حجم فایل ویدئویی انتخاب‌شده از حداکثر مجاز حجم پیام بیشتر است. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "به‌دلیل حجم بالای این فایل، ارسال آن امکان‌پذیر نیست. می‌توانید حداکثر {limit,number}{units} فایل ارسال کنید."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "به‌دلیل حجم بالای این فایل ویدیویی، ارسال آن امکان‌پذیر نیست. می‌توانید حداکثر {limit,number}{units} فایل ویدیویی ارسال کنید."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "ناتوانی در بارگیری پیوست انتخابی."
@@ -3900,16 +3900,16 @@
     "messageformat": "نما به‌روزرسانی شد"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "تغییر چیدمان"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "مشبک"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "نوار جانبی"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "بلندگو"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "صفحهٔ خود را به اشتراک بگذارید"

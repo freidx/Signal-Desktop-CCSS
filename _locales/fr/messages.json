@@ -747,7 +747,7 @@
     "messageformat": "Vous ne pouvez sélectionner qu'un seul fichier à la fois."
   },
   "icu:maximumAttachments": {
-    "messageformat": "Vous ne pouvez pas joindre d’autres fichiers à ce message."
+    "messageformat": "Vous ne pouvez pas joindre d'autres fichiers à ce message."
   },
   "icu:fileSizeWarning": {
     "messageformat": "La taille du fichier sélectionné dépasse la limite autorisée. "
@@ -756,10 +756,10 @@
     "messageformat": "La taille de la vidéo sélectionnée dépasse la limite autorisée. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Impossible d'envoyer ce fichier, car il est trop volumineux. Taille maximale : {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Impossible d'envoyer ce fichier vidéo, car il est trop volumineux. Taille maximale : {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Impossible de charger la pièce jointe sélectionnée."
@@ -3900,16 +3900,16 @@
     "messageformat": "Vue actualisée"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Changer de vue"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Galerie"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Barre latérale"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Haut-parleur"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Partagez votre écran"

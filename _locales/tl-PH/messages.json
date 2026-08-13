@@ -756,10 +756,10 @@
     "messageformat": "Paumanhin, masyadong malaki ang pinili mong file. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Hindi ma-send ang file na ito dahil masyado itong malaki. Maaari kang mag-send ng files hanggang {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Hindi ma-send video file na ito dahil masyado itong malaki. Maaari kang mag-send ng video files hanggang {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Unable to load selected attachment."
@@ -3900,7 +3900,7 @@
     "messageformat": "Updated na ang view"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Baguhin ang layout"
   },
   "icu:calling__layout--paginated": {
     "messageformat": "Grid"

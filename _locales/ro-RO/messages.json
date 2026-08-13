@@ -756,10 +756,10 @@
     "messageformat": "Ne pare rău, fișierul video selectat depășește limita de mărime pentru mesaje. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Nu se poate trimite acest fișier pentru că e prea mare. Poți să trimiți fișiere de până la {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Nu se poate trimite acest fișier video pentru că este prea mare. Poți să trimiți fișiere video de până la {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Nu s-a putut încărca atașamentul selectat."
@@ -3900,16 +3900,16 @@
     "messageformat": "Vizualizare actualizată"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Schimbă aspectul"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Grilă"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Bară laterală"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Difuzor"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Partajează ecranul tău"

@@ -756,10 +756,10 @@
     "messageformat": "માફ કરશો, પસંદ કરેલી વીડિયો ફાઈલ મેસેજના કદના પ્રતિબંધોથી વધુ છે. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "આ ફાઈલ મોકલી શકતા નથી કારણ કે તે બહુ મોટી છે. તમે {limit,number}{units} સુધીની ફાઈલો મોકલી શકો છો."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "આ વીડિયો ફાઇલ મોકલી શકતા નથી કારણ કે તે બહુ મોટી છે. તમે {limit,number}{units} સુધીની વીડિયો ફાઈલો મોકલી શકો છો."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "પસંદ કરેલ અટેચમેન્ટ લોડ કરવામાં અસમર્થ."
@@ -3900,16 +3900,16 @@
     "messageformat": "વ્યૂ અપડેટ થયો"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "લેઆઉટ બદલો"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "ગ્રિડ"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "સાઇડબાર"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "સ્પીકર"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "તમારી સ્ક્રીન શેર કરો"

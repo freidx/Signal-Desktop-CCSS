@@ -756,10 +756,10 @@
     "messageformat": "Barkatu, hautatutako bideo-fitxategiak mezuen tamaina-murriztapenak gainditzen ditu. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Ezin da bidali fitxategi hau, handiegia baita. Bidal daitezkeen fitxategien gehieneko tamaina: {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Ezin da bidali bideo hau, handiegia baita. Bidal daitezkeen bideoen gehieneko tamaina: {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Ezin izan da hautatutako eranskina kargatu."
@@ -3900,16 +3900,16 @@
     "messageformat": "Eguneratu da ikuspegia"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Aldatu diseinua"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Sareta"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Alboko barra"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Bozgorailua"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Partekatu pantaila"

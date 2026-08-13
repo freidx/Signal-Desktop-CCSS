@@ -756,10 +756,10 @@
     "messageformat": "El vídeo que has seleccionado excede el límite de tamaño permitido. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "No se puede enviar este archivo porque es demasiado grande. Puedes enviar archivos de hasta {limit,number} {units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "No se puede enviar este archivo de vídeo porque es demasiado grande. Puedes enviar archivos de vídeo de hasta {limit,number} {units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "No se ha podido cargar el archivo seleccionado."
@@ -2571,7 +2571,7 @@
     "messageformat": "Haz clic para volver a registrarte y seguir enviando mensajes. Signal Desktop ya no está registrado, probablemente porque has registrado tu número de teléfono en Signal con un dispositivo diferente."
   },
   "icu:unregistered": {
-    "messageformat": "Dispositivo no registrado"
+    "messageformat": "El dispositivo ya no está registrado"
   },
   "icu:autoUpdateNewVersionTitle": {
     "messageformat": "Actualización disponible"
@@ -3900,16 +3900,16 @@
     "messageformat": "Vista actualizada"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Cambiar disposición"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Cuadrícula"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Barra lateral"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Orador"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Comparte tu pantalla"

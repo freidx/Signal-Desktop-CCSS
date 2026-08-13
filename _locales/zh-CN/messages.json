@@ -756,10 +756,10 @@
     "messageformat": "抱歉，所选视频文件超过了消息的最大限制。{limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "此文件由于过大而无法发送。您至多可以发送大小为 {limit,number}{units} 的文件。"
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "此视频文件由于过大而无法发送。您至多可以发送大小为 {limit,number}{units} 的视频文件。"
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "无法加载选中的附件。"
@@ -3900,16 +3900,16 @@
     "messageformat": "视图已更新"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "更改布局"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "网格"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "侧边栏"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "扬声器"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "共享您的屏幕"

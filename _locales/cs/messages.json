@@ -756,10 +756,10 @@
     "messageformat": "Je nám líto, vybrané video překračuje limit pro velikosti zprávy. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Tento soubor nelze odeslat, protože je příliš velký. Můžete posílat soubory o velikosti až {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Toto video nelze odeslat, protože je příliš velké. Můžete posílat videa o velikosti až {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Nelze načíst vybranou přílohu."
@@ -3900,16 +3900,16 @@
     "messageformat": "Zobrazení aktualizováno"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Změnit rozvržení"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Mřížka"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Postranní panel"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Aktivní mluvčí"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Sdílet obrazovku"

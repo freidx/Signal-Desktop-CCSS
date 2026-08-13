@@ -756,10 +756,10 @@
     "messageformat": "Кешіріңіз, таңдалған бейне файлы хабар өлшеміне қойылатын шектеулерден асып кетті. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Бұл файлды жіберу мүмкін емес, себебі ол өте үлкен. Ең көбі {limit,number} {units} файлдарды жібере аласыз."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Бұл бейне файлын жіберу мүмкін емес, себебі ол өте үлкен. Ең көбі {limit,number} {units} бейне файлдарды жібере аласыз."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Таңдалған тіркемені жүктеу мүмкін болмады."
@@ -3900,16 +3900,16 @@
     "messageformat": "Көрініс жаңартылды"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Макетті өзгерту"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Тор"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Бүйірлік жолақ"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Үндеткіш"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Экраныңызды бөлісу"

@@ -756,10 +756,10 @@
     "messageformat": "Üzgünüz, seçilen video dosyası mesaj boyutu kısıtlamalarını aşıyor. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Bu dosya gönderilemiyor çünkü çok büyük. En fazla {limit,number}{units} büyüklüğünde bir dosya gönderebilirsin."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Bu video dosyası gönderilemiyor çünkü çok büyük. En fazla {limit,number}{units} büyüklüğünde bir dosya gönderebilirsin."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Seçilen eklenti yüklenemedi."
@@ -3900,16 +3900,16 @@
     "messageformat": "Görünüm güncellendi"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Düzeni değiştir"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Izgara"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Kenar çubuğu"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Hoparlör"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Ekran paylaş"

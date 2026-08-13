@@ -756,10 +756,10 @@
     "messageformat": "選択された動画ファイルは下記の送信可能なサイズ上限を超えています。{limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "サイズが大きすぎるためこのファイルを送信できません。送信できるファイルのサイズは、最大{limit,number}{units}です。"
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "サイズが大きすぎるためこの動画ファイルを送信できません。送信できる動画ファイルのサイズは、最大{limit,number}{units}です。"
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "選択された添付ファイルをロードできません。"
@@ -3900,16 +3900,16 @@
     "messageformat": "ビューが更新されました"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "レイアウトを変更"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "グリッド"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "サイドバー"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "スピーカー"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "あなたの画面を共有"

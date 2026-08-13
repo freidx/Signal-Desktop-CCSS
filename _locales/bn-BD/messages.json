@@ -756,10 +756,10 @@
     "messageformat": "দুঃখিত, বেছে নেওয়া ভিডিও ফাইলটি মেসেজের আকারের সীমা অতিক্রম করেছে। {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "এই ফাইলটি বড় হবার কারণে পাঠানো যাচ্ছে না। আপনি একবারে {limit,number}{units}-টি ফাইল পাঠাতে পারেন"
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "এই ফাইলটি বড় হবার কারণে পাঠানো যাচ্ছে না। আপনি {limit,number}{units} পর্যন্ত ভিডিও ফাইল পাঠাতে পারেন।"
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "নির্বাচিত সংযুক্তি লোড করতে অক্ষম।"
@@ -3900,16 +3900,16 @@
     "messageformat": "ভিউ আপডেট করা হয়েছে"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "লে আউট পরিবর্তন করুন"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "গ্রিড"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "সাইডবার"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "স্পিকার"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "আপনার স্ক্রিন শেয়ার করুন"

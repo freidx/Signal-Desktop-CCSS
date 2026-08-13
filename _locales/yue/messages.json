@@ -756,10 +756,10 @@
     "messageformat": "唔好意思，你揀嘅影片檔案超過咗訊息容量限制。{limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "你個檔案太大喇，傳送唔到。你最多可以傳送 {limit,number}{units} 嘅檔案。"
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "你條片太長喇，傳送唔到呢個檔案。你最多可以傳送 {limit,number}{units} 嘅影片檔案。"
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "載入唔到你揀嘅附件。"
@@ -3900,16 +3900,16 @@
     "messageformat": "更新咗檢視方式"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "更換版面"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "網格"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "側欄"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "喇叭"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "分享你嘅畫面"

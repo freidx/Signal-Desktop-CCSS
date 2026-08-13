@@ -756,10 +756,10 @@
     "messageformat": "Δυστυχώς το επιλεγμένο αρχείο βίντεο υπερβαίνει το όριο μεγέθους μηνυμάτων. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Δεν είναι δυνατή η αποστολή αυτού του αρχείου επειδή είναι πολύ μεγάλο. Μπορείς να στείλεις αρχεία έως και {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Δεν είναι δυνατή η αποστολή αυτού του αρχείου βίντεο επειδή είναι πολύ μεγάλο. Μπορείς να στείλεις αρχεία βίντεο έως και {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Δεν είναι δυνατή η φόρτωση του επιλεγμένου συνημμένου."
@@ -3900,16 +3900,16 @@
     "messageformat": "Η προβολή ενημερώθηκε"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Αλλαγή διάταξης"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Πλέγμα"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Πλαϊνή μπάρα"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Μεγάφωνο"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Διαμοιρασμός οθόνης"

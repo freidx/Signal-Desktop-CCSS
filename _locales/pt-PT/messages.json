@@ -756,10 +756,10 @@
     "messageformat": "Lamentamos, mas o ficheiro de vídeo selecionado excede o tamanho máximo de mensagem permitido. {limit,number} {units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Não foi possível enviar este ficheiro porque é demasiado grande Pode enviar ficheiros até {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Não foi possível enviar este ficheiro de vídeo porque é demasiado grande. Pode enviar ficheiros de vídeo até {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Não foi possível carregar o anexo selecionado."
@@ -3900,16 +3900,16 @@
     "messageformat": "Vista atualizada"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Alterar layout"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Grelha"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Barra lateral"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Alta voz"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Partilhar o seu ecrã"

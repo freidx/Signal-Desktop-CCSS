@@ -756,10 +756,10 @@
     "messageformat": "Жал ни е, избраното видео ги надминува рестрикциите за големина на порака. {limit,number}{units}"
   },
   "icu:fileTooLargeWarning": {
-    "messageformat": "Can’t send this file because it’s too large. You can send files up to {limit,number}{units}."
+    "messageformat": "Оваа датотека не може да се испрати бидејќи е преголема. Можете да испраќате датотеки до {limit,number}{units}."
   },
   "icu:videoFileTooLargeWarning": {
-    "messageformat": "Can’t send this video file because it’s too large. You can send video files up to {limit,number}{units}."
+    "messageformat": "Ова видео не може да се испрати бидејќи е преголемо. Можете да испраќате видеа до {limit,number}{units}."
   },
   "icu:unableToLoadAttachment": {
     "messageformat": "Не успеав да го вчитам избраниот прилог."
@@ -3900,16 +3900,16 @@
     "messageformat": "Прегледот е ажуриран"
   },
   "icu:calling__change-layout": {
-    "messageformat": "Change layout"
+    "messageformat": "Сменетe го прегледот"
   },
   "icu:calling__layout--paginated": {
-    "messageformat": "Grid"
+    "messageformat": "Мрежа"
   },
   "icu:calling__layout--overflow": {
-    "messageformat": "Sidebar"
+    "messageformat": "Страничен преглед"
   },
   "icu:calling__layout--speaker": {
-    "messageformat": "Speaker"
+    "messageformat": "Звучник"
   },
   "icu:calling__SelectPresentingSourcesModal--title": {
     "messageformat": "Споделете го екранот"
