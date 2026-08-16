@@ -65,6 +65,7 @@ export const rendererConfigSchema = z.object({
   storageUrl: configRequiredStringSchema,
   stripePublishableKey: configRequiredStringSchema,
   theme: themeSettingSchema,
+  customCss: z.string().optional(),
   updatesUrl: configRequiredStringSchema,
   resourcesUrl: configRequiredStringSchema,
   userDataPath: configRequiredStringSchema,

@@ -17,6 +17,7 @@ import type { MutableRefObject, ReactNode, JSX } from 'react';
 import type { RowType } from '@signalapp/sqlcipher';
 import type { BackupLevel } from '@signalapp/libsignal-client/zkgroup.js';
 import { ChatColorPicker } from './ChatColorPicker.dom.tsx';
+import { CustomCssPage } from './CustomCssPage.dom.tsx';
 import { Checkbox } from './Checkbox.dom.tsx';
 import { WidthBreakpoint } from './_util.std.ts';
 import { DisappearingTimeDialog } from './DisappearingTimeDialog.dom.tsx';
@@ -172,6 +173,7 @@ export type PropsDataType = {
   selectedSpeaker?: AudioDevice;
   sentMediaQualitySetting: SentMediaQualitySettingType;
   themeSetting: ThemeSettingType | undefined;
+  customCss?: string;
   universalExpireTimer: DurationInSeconds;
   whoCanFindMe: PhoneNumberDiscoverability;
   whoCanSeeMe: PhoneNumberSharingMode;
@@ -351,6 +353,7 @@ type PropsFunctionType = {
   onSpellCheckChange: CheckboxChangeHandlerType;
   onTextFormattingChange: CheckboxChangeHandlerType;
   onThemeChange: SelectChangeHandlerType<ThemeType>;
+  onCustomCssChange?: (value: string) => void;
   onToggleNavTabsCollapse: (navTabsCollapsed: boolean) => void;
   onTypingIndicatorsChange: CheckboxChangeHandlerType;
   onUniversalExpireTimerChange: SelectChangeHandlerType<number>;
@@ -531,6 +534,7 @@ export function Preferences({
   onSpellCheckChange,
   onTextFormattingChange,
   onThemeChange,
+  onCustomCssChange,
   onToggleNavTabsCollapse,
   onTypingIndicatorsChange,
   onUniversalExpireTimerChange,
@@ -576,6 +580,7 @@ export function Preferences({
   localeOverride,
   theme,
   themeSetting,
+  customCss,
   universalExpireTimer,
   validateBackup,
   whoCanFindMe,
@@ -1126,6 +1131,13 @@ export function Preferences({
               value={themeSetting}
             />
           }
+        />
+        <Control
+          icon
+          left={i18n('icu:Preferences__customCss')}
+          onClick={() => {
+            setSettingsLocation({ page: SettingsPage.CustomCSS });
+          }}
         />
         <Control
           icon
@@ -2219,6 +2231,34 @@ export function Preferences({
         title={i18n('icu:ChatColorPicker__menu-title')}
       />
     );
+  } else if (settingsLocation.page === SettingsPage.CustomCSS) {
+    const backButton = (
+      <button
+        aria-label={i18n('icu:goBack')}
+        className="Preferences__back-icon"
+        onClick={() => setSettingsLocation({ page: SettingsPage.Appearance })}
+        type="button"
+      />
+    );
+    const pageContents = (
+      <CustomCssPage
+        i18n={i18n}
+        customCss={customCss ?? ''}
+        onCustomCssChange={css => {
+          if (onCustomCssChange) {
+            onCustomCssChange(css);
+          }
+        }}
+      />
+    );
+    content = (
+      <PreferencesContent
+        backButton={backButton}
+        contents={pageContents}
+        contentsRef={settingsPaneRef}
+        title={i18n('icu:Preferences__customCss')}
+      />
+    );
   } else if (settingsLocation.page === SettingsPage.ChatFolders) {
     content = renderPreferencesChatFoldersPage({
       previousLocation: settingsLocation.previousLocation,
@@ -2670,7 +2710,8 @@ export function Preferences({
                   'Preferences__button--appearance': true,
                   'Preferences__button--selected':
                     settingsLocation.page === SettingsPage.Appearance ||
-                    settingsLocation.page === SettingsPage.ChatColor,
+                    settingsLocation.page === SettingsPage.ChatColor ||
+                    settingsLocation.page === SettingsPage.CustomCSS,
                 })}
                 onClick={() =>
                   setSettingsLocation({ page: SettingsPage.Appearance })

@@ -1,0 +1,39 @@
+.CustomCssPage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+
+  &__header {
+    margin-bottom: 16px;
+
+    h2 {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--axo-color-label-secondary);
+      font-size: 13px;
+    }
+  }
+
+  &__textarea {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 400px;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
+    padding: 16px;
+    background-color: var(--axo-color-background-secondary);
+    color: var(--axo-color-label-primary);
+    border: 1px solid var(--axo-color-border-secondary);
+    border-radius: 8px;
+    resize: vertical;
+
+    &:focus {
+      outline: none;
+      border-color: var(--axo-color-brand-primary);
+    }
+  }
+}

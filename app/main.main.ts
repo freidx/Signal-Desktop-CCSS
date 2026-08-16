@@ -2873,6 +2873,9 @@ function removeDarkOverlay() {
 
 ipc.on('get-config', async event => {
   const theme = await getResolvedThemeSetting();
+  const customCssRaw = ephemeralConfig.get('custom-css');
+  const customCss =
+    typeof customCssRaw === 'string' ? customCssRaw : undefined;
 
   const parsed = safeParseLoose(rendererConfigSchema, {
     name: packageJson.productName,
@@ -2922,6 +2925,7 @@ ipc.on('get-config', async event => {
     genericServerPublicParams: config.get<string>('genericServerPublicParams'),
     backupServerPublicParams: config.get<string>('backupServerPublicParams'),
     theme,
+    customCss,
     appStartInitialSpellcheckSetting,
 
     // paths
