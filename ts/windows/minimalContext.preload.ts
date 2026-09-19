@@ -67,6 +67,7 @@ export const MinimalSignalContext: MinimalSignalContextType = {
   },
   Settings: {
     themeSetting: createSetting('themeSetting', { setter: false }),
+    customCss: createSetting('customCss', { setter: false }),
     waitForChange: waitForSettingsChange,
   },
   Emojify: undefined,

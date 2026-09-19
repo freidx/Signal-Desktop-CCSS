@@ -92,6 +92,7 @@ type ValuesWithGetters = Omit<
   | 'contentProtection'
   | 'systemTraySetting'
   | 'themeSetting'
+  | 'customCss'
   | 'zoomFactor'
 >;
 
@@ -126,6 +127,7 @@ export type IPCEventsGettersType = {
   getContentProtection: () => Promise<boolean>;
   getSystemTraySetting: () => Promise<SystemTraySetting>;
   getThemeSetting: () => Promise<ThemeType>;
+  getCustomCss: () => Promise<string>;
   getZoomFactor: () => Promise<ZoomFactorType>;
   // Events
   onZoomFactorChange: (callback: ZoomFactorChangeCallback) => void;
@@ -235,6 +237,12 @@ export function createIPCEvents(
     },
     setThemeSetting: async (value: ThemeType) => {
       await setEphemeralSetting('themeSetting', value);
+    },
+    getCustomCss: async () => {
+      return (await getEphemeralSetting('customCss')) ?? '';
+    },
+    setCustomCss: async (value: string) => {
+      await setEphemeralSetting('customCss', value);
     },
 
     // From IPCEventsCallbacksType

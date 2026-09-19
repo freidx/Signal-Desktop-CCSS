@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 
 import type { AudioDevice } from '@signalapp/ringrtc';
 import type { MutableRefObject, JSX } from 'react';
+import { applyCustomCssToDOM } from '../../windows/applyTheme.dom.ts';
 
 import { useItemsActions } from '../ducks/items.preload.ts';
 import { useConversationsActions } from '../ducks/conversations.preload.ts';
@@ -412,6 +413,7 @@ export function SmartPreferences(): JSX.Element | null {
   const [hasContentProtection, setContentProtection] = useState<boolean>();
   const [hasSpellCheck, setSpellCheck] = useState<boolean>();
   const [themeSetting, setThemeSetting] = useState<ThemeType>();
+  const [customCss, setCustomCss] = useState<string>('');
 
   useEffect(() => {
     let canceled = false;
@@ -458,6 +460,15 @@ export function SmartPreferences(): JSX.Element | null {
     };
     drop(loadThemeSetting());
 
+    const loadCustomCss = async () => {
+      const value = await window.Events.getCustomCss();
+      if (canceled) {
+        return;
+      }
+      setCustomCss(value);
+    };
+    drop(loadCustomCss());
+
     return () => {
       canceled = true;
     };
@@ -497,6 +508,11 @@ export function SmartPreferences(): JSX.Element | null {
     setThemeSetting(value);
     drop(window.Events.setThemeSetting(value));
     drop(themeChanged());
+  };
+  const onCustomCssChange = (value: string) => {
+    setCustomCss(value);
+    drop(window.Events.setCustomCss(value));
+    applyCustomCssToDOM(value);
   };
 
   // Async IPC for electron configuration, all can be modified
@@ -1154,6 +1170,7 @@ export function SmartPreferences(): JSX.Element | null {
         onSpellCheckChange={onSpellCheckChange}
         onTextFormattingChange={onTextFormattingChange}
         onThemeChange={onThemeChange}
+        onCustomCssChange={onCustomCssChange}
         onToggleNavTabsCollapse={toggleNavTabsCollapse}
         onTypingIndicatorsChange={onTypingIndicatorsChange}
         onUniversalExpireTimerChange={onUniversalExpireTimerChange}
@@ -1205,6 +1222,7 @@ export function SmartPreferences(): JSX.Element | null {
         startPlaintextExport={startPlaintextExport}
         theme={theme}
         themeSetting={themeSetting}
+        customCss={customCss}
         universalExpireTimer={universalExpireTimer}
         unreadCountBadgeType={unreadCountBadgeType}
         validateBackup={validateBackup}

@@ -540,6 +540,7 @@ export default {
     whoCanFindMe: PhoneNumberDiscoverability.Discoverable,
     whoCanSeeMe: PhoneNumberSharingMode.Everybody,
     zoomFactor: 1,
+    customCss: '',
 
     renderDonationsPane: ({
       contentsRef,
@@ -639,6 +640,7 @@ export default {
     onStartUpdate: action('onStartUpdate'),
     onTextFormattingChange: action('onTextFormattingChange'),
     onThemeChange: action('onThemeChange'),
+    onCustomCssChange: action('onCustomCssChange'),
     onToggleNavTabsCollapse: action('onToggleNavTabsCollapse'),
     onTypingIndicatorsChange: action('onTypingIndicatorsChange'),
     onUniversalExpireTimerChange: action('onUniversalExpireTimerChange'),

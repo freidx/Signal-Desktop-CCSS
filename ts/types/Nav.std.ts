@@ -96,6 +96,7 @@ export enum SettingsPage {
   LocalBackupsSetupFolder = 'LocalBackupsSetupFolder',
   LocalBackupsSetupKey = 'LocalBackupsSetupKey',
   LocalBackupsKeyReference = 'LocalBackupsKeyReference',
+  CustomCSS = 'CustomCSS',
 }
 
 export enum ProfileEditorPage {

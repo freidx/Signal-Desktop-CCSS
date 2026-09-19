@@ -59,6 +59,7 @@ export type MinimalSignalContextType = {
   restartApp: () => void;
   Settings: {
     themeSetting: SettingType<SettingsValuesType['themeSetting']>;
+    customCss: SettingType<SettingsValuesType['customCss']>;
     waitForChange: () => Promise<void>;
   };
   OS: {

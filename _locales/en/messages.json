@@ -39,6 +39,18 @@
     "messageformat": "{max, number}+",
     "description": "Axo Design System > Badge Component > When numeric value is greater than max (Ex: 99 -> '99', 100 -> '99+')"
   },
+  "icu:Preferences__customCss": {
+    "messageformat": "Custom CSS",
+    "description": "Custom CSS editor titles"
+  },
+  "icu:CustomThemes__customCssSubtitle": {
+    "messageformat": "Paste any custom CSS below and it'll persist",
+    "description": "Subtitle for custom CSS editor"
+  },
+  "icu:CustomThemes__editorPlaceholder": {
+    "messageformat": "/* Write custom CSS rules here... */",
+    "description": "Placeholder for custom CSS editor"
+  },
   "icu:AddUserToAnotherGroupModal__title": {
     "messageformat": "Add to a group",
     "description": "Shown as the title of the dialog that allows you to add a contact to an group"

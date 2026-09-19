@@ -18,6 +18,7 @@ import type { MutableRefObject, ReactNode, JSX } from 'react';
 import type { RowType } from '@signalapp/sqlcipher';
 import type { BackupLevel } from '@signalapp/libsignal-client/zkgroup.js';
 import { ChatColorPicker } from './ChatColorPicker.dom.tsx';
+import { CustomCssPage } from './CustomCssPage.dom.tsx';
 import { WidthBreakpoint } from './_util.std.ts';
 import { DisappearingTimeDialog } from './DisappearingTimeDialog.dom.tsx';
 import { PhoneNumberDiscoverability } from '../util/phoneNumberDiscoverability.std.ts';
@@ -193,6 +194,7 @@ export type PropsDataType = {
   selectedSpeaker?: AudioDevice;
   sentMediaQualitySetting: SentMediaQualitySettingType;
   themeSetting: ThemeSettingType | undefined;
+  customCss?: string;
   universalExpireTimer: DurationInSeconds;
   unreadCountBadgeType: UnreadCountBadgeType;
   whoCanFindMe: PhoneNumberDiscoverability;
@@ -383,6 +385,7 @@ type PropsFunctionType = {
   onSpellCheckChange: CheckboxChangeHandlerType;
   onTextFormattingChange: CheckboxChangeHandlerType;
   onThemeChange: SelectChangeHandlerType<ThemeType>;
+  onCustomCssChange?: (value: string) => void;
   onToggleNavTabsCollapse: (navTabsCollapsed: boolean) => void;
   onTypingIndicatorsChange: CheckboxChangeHandlerType;
   onUniversalExpireTimerChange: SelectChangeHandlerType<number>;
@@ -582,6 +585,7 @@ export function Preferences({
   onSpellCheckChange,
   onTextFormattingChange,
   onThemeChange,
+  onCustomCssChange,
   onToggleNavTabsCollapse,
   onTypingIndicatorsChange,
   onUniversalExpireTimerChange,
@@ -628,6 +632,7 @@ export function Preferences({
   localeOverride,
   theme,
   themeSetting,
+  customCss,
   universalExpireTimer,
   unreadCountBadgeType,
   validateBackup,
@@ -1312,6 +1317,14 @@ export function Preferences({
                 value: 'dark',
               },
             ]}
+          />
+          <AxoClickableItem.Root
+            symbol="palette"
+            label={i18n('icu:Preferences__customCss')}
+            arrow // todo: check imp
+            onClick={() => {
+              setSettingsLocation({ page: SettingsPage.CustomCSS });
+            }}
           />
           <AxoClickableItem.Root
             symbol="palette"
@@ -2151,6 +2164,34 @@ export function Preferences({
         title={i18n('icu:ChatColorPicker__menu-title')}
       />
     );
+  } else if (settingsLocation.page === SettingsPage.CustomCSS) {
+    const backButton = (
+      <button
+        aria-label={i18n('icu:goBack')}
+        className="Preferences__back-icon"
+        onClick={() => setSettingsLocation({ page: SettingsPage.Appearance })}
+        type="button"
+      />
+    );
+    const pageContents = (
+      <CustomCssPage
+        i18n={i18n}
+        customCss={customCss ?? ''}
+        onCustomCssChange={css => {
+          if (onCustomCssChange) {
+            onCustomCssChange(css);
+          }
+        }}
+      />
+    );
+    content = (
+      <PreferencesContent
+        backButton={backButton}
+        contents={pageContents}
+        contentsRef={settingsPaneRef}
+        title={i18n('icu:Preferences__customCss')}
+      />
+    );
   } else if (settingsLocation.page === SettingsPage.ChatFolders) {
     // oxlint-disable-next-line react/refs
     content = renderPreferencesChatFoldersPage({
@@ -2706,7 +2747,8 @@ export function Preferences({
                 label={i18n('icu:Preferences__button--appearance')}
                 current={
                   settingsLocation.page === SettingsPage.Appearance ||
-                  settingsLocation.page === SettingsPage.ChatColor
+                  settingsLocation.page === SettingsPage.ChatColor ||
+                  settingsLocation.page === SettingsPage.CustomCSS
                 }
                 onClick={() =>
                   setSettingsLocation({ page: SettingsPage.Appearance })
